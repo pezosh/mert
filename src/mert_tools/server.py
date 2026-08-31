@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from mcp.server import MCPServer
+from mcp.server.mcpserver import MCPServer
 
 from .capabilities import analyze_image as _analyze_image
 from .capabilities import create_task as _create_task
