@@ -36,4 +36,4 @@ class VisionObservation(BaseModel):
 class VisionResult(BaseModel):
     summary: str
     observations: list[VisionObservation]
-    warnings: list[str] = []
+    warnings: list[str] = Field(default_factory=list)
